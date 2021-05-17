@@ -27,6 +27,16 @@ public class ClienteController {
         return ResponseEntity.ok(clienteRepository.save(cliente));
     }
 
+
+    @Transactional
+    @CacheEvict(value = "/cliente", allEntries = true)
+    @PutMapping("/cliente")
+    public ResponseEntity<Cliente> AlteraCliente (@RequestBody Cliente cliente){
+        return ResponseEntity.ok(clienteRepository.save(cliente));
+    }
+
+
+
     @GetMapping("/clientepornome/{nome}")
     public ResponseEntity<List<Cliente>> listaClientePorNome(@PathVariable(value="nome") String nome){
         List<Cliente> clientePorNome = clienteRepository.findByNome(nome);
