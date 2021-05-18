@@ -14,7 +14,7 @@ Como rodar:  </br>
 Endpoints disponiveis: </br>
 -cliente: </br>
 [post] /cliente - grava novo cliente </br>
-[put] /cliente - grava novo cliente </br>
+[put] /cliente - altera cliente </br>
 [get]/clientepornome/{nome}   - busca cliente por nome </br> 
 [get]/clienteporid/{id}  - busca cliente por id  </br>
 [get] /deletecliente  - deleta cliente </br>
