@@ -34,6 +34,7 @@ docker run -d --name rabbitmq -p 5672:5672 -p 5673:5673 -p 15672:15672 rabbitmq:
 </br>
 Poderá abrir o console dele no :  http://localhost:15672/ </br>
 </br>
-Para testar o envio mande um post na porta 9000 em seu localhost em /rabbitmq//publish</br></br>
+Para testar o envio mande um post na porta 9000 em seu localhost em /rabbitmq/envia</br>
+a url no post fica: http://localhost:9000/rabbitmq/envia</br>
 
  <p align="left"> 
