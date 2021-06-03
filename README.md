@@ -25,3 +25,15 @@ Endpoints disponiveis: </br>
 [get] /cidadeporestado/{estado} - cidades por estado  </br>
 [get] /cidades - todas cidades  </br>
 </p>
+
+<p align="left"> 
+<strong>Testar o RabbitMQ.  </strong></br>
+Instale o Docker, baixe uma imagem do Rabbitmq.</br>
+Então o comand como administrador no cmd: </br>
+docker run -d --name rabbitmq -p 5672:5672 -p 5673:5673 -p 15672:15672 rabbitmq:3.8-management   </br>
+</br>
+Poderá abrir o console dele no :  http://localhost:15672/ </br>
+</br>
+Para testar o envio mande um post na porta 9000 em seu localhost em /rabbitmq//publish</br></br>
+
+ <p align="left"> 
