@@ -25,7 +25,7 @@ public class Publicador {
              Channel channel = connection.createChannel()) {
             channel.queueDeclare("Tarefa-Teste", true, false, false, null);
 
-            String message = String.join(" ", "argumentos");
+            String message = String.join(" ", "Texto da mensagem Strign aqui");
 
             channel.basicPublish("", "Tarefa-Teste",
                     MessageProperties.PERSISTENT_TEXT_PLAIN,
