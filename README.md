@@ -1,5 +1,5 @@
 # API-Cadastros
- Implementação de JPQL
+ Implementação de JPQL e RabbitMQ
  
 
 <p align="left">
