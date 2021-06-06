@@ -36,5 +36,6 @@ Poderá abrir o console dele no :  http://localhost:15672/ </br>
 </br>
 Para testar o envio mande um post na porta 9000 em seu localhost em /rabbitmq/envia</br>
 a url no post fica: http://localhost:9000/rabbitmq/envia</br>
+o reciver http://localhost:9000/rabbitmq/recebe</br>
 
  <p align="left"> 
