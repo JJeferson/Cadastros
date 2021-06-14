@@ -19,12 +19,12 @@ public class TestaCliente {
     ClienteRepository clienteRepository ;
     @Test
     void  testaSaveCliente() {
-        /*
+
         Cliente clienteTeste  = mock(Cliente.class);
         Cliente  salvaCliente  = clienteRepository.save(clienteTeste);
         assertEquals(notNull(),salvaCliente);
 
-         */
+
     }
 
 

@@ -39,7 +39,7 @@ public class CidadeController {
     }
 
     @GetMapping("/cidades")
-    public ResponseEntity<List<Cidade>> planetasTodos(){
+    public ResponseEntity<List<Cidade>> cidadesTodos(){
         return ResponseEntity.ok(cidadeRepository.findAll());
     }
 

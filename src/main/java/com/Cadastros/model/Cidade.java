@@ -16,7 +16,12 @@ public class Cidade  implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private long   id_Cidade;
-
     private String Nome;
     private String Estado;
+
+
+    public Cidade(String nome, String estado) {
+        this.Nome   = nome;
+        this.Estado = estado;
+    }
 }
