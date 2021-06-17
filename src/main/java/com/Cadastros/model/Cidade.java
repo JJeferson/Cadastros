@@ -24,4 +24,6 @@ public class Cidade  implements Serializable {
         this.Nome   = nome;
         this.Estado = estado;
     }
+    public Cidade() {  
+    }  
 }
