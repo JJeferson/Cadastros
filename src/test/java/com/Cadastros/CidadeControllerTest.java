@@ -33,13 +33,13 @@ public class CidadeControllerTest {
 
     @Test
     public void gravaCidade() throws Exception{
-
+ 
         Cidade cidadeTeste = new Cidade("teste","RS");
         mockMvc.perform(post("/cadastros/cidade").
                 contentType("application/json").
                 content(objectMapper.writeValueAsString(cidadeTeste))).
                 andExpect(status().isOk());
-
+ 
     }
 
 }

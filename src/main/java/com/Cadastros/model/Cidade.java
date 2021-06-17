@@ -19,11 +19,12 @@ public class Cidade  implements Serializable {
     private String Nome;
     private String Estado;
 
+    public Cidade() {  
+    } 
 
     public Cidade(String nome, String estado) {
         this.Nome   = nome;
         this.Estado = estado;
     }
-    public Cidade() {  
-    }  
+ 
 }
